@@ -5,7 +5,7 @@
   "main": "dist/yt-lazy.min.js",
   "type": "module",
   "scripts": {
-    "test": "",
+    "test": "npm run build",
     "build": "node scripts/build.js"
   },
   "repository": {
