@@ -23,7 +23,8 @@ const observer = new IntersectionObserver((entries) => {
     if (!isIntersecting) continue;
 
     const iframe = document.createElement("iframe");
-    iframe.src = `https://www.youtube.com/embed/${target.dataset.videoId}`;
+    // We need to work around google's closure compiler
+    iframe.src = `https://www.youtube.com/embed/${target.dataset["videoId"]}`;
 
     for (const attribute in attributes) {
       iframe.setAttribute(attribute, attributes[attribute]);
