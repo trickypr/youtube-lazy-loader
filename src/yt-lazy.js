@@ -33,4 +33,6 @@ const observer = new IntersectionObserver((entries) => {
   }
 });
 
-document.querySelectorAll(".youtube-video").forEach(observer.observe);
+document
+  .querySelectorAll(".youtube-video")
+  .forEach((placeholder) => observer.observe(placeholder));
