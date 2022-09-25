@@ -29,7 +29,7 @@ And the stylesheet required by the plugin. I would also recommend adding a preco
 <!-- Stylesheet that should be loaded -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/yt-lazy@1.0.2/dist/yt-lazy.min.css"
+  href="https://cdn.jsdelivr.net/npm/yt-lazy@1.0.3/dist/yt-lazy.min.css"
 />
 ```
 
@@ -47,7 +47,7 @@ Finally, you need to include the script at the bottom of your page:
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/npm/yt-lazy@1.0.2/dist/yt-lazy.min.js"
+  src="https://cdn.jsdelivr.net/npm/yt-lazy@1.0.3/dist/yt-lazy.min.js"
   async
 ></script>
 ```
