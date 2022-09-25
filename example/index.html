@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example document</title>
+
+    <!-- Configuration variables -->
+    <style>
+      :root {
+        --yt-width: 640px;
+        --yt-height: 360px;
+      }
+    </style>
+
+    <!-- Preconnect to improve performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+
+    <!-- Stylesheet that should be loaded -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/yt-lazy@1.0.0/dist/yt-lazy.min.css"
+    />
+  </head>
+  <body>
+    <!-- Top level youtube video that will be loaded once the rest of the page
+    has finished loading -->
+    <div class="youtube-video" data-video-id="LDU_Txk06tM"></div>
+
+    <div style="height: 150vh"></div>
+
+    <!-- Video that will be loaded on scroll -->
+    <div class="youtube-video" data-video-id="dQw4w9WgXcQ"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/yt-lazy@1.0.0/dist/yt-lazy.min.js"
+      async
+    ></script>
+  </body>
+</html>
