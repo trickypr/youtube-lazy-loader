@@ -1,6 +1,6 @@
 {
   "name": "yt-lazy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny, fast lazy loader specificity for youtube videos",
   "main": "dist/yt-lazy.min.js",
   "type": "module",
