@@ -1,0 +1,25 @@
+{
+  "name": "yt-lazy",
+  "version": "1.0.0",
+  "description": "A tiny, fast lazy loader specificity for youtube videos",
+  "main": "yt-lazy.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trickypr/youtube-lazy-loader.git"
+  },
+  "author": "TrickyPR",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/trickypr/youtube-lazy-loader/issues"
+  },
+  "homepage": "https://github.com/trickypr/youtube-lazy-loader#readme",
+  "devDependencies": {
+    "csso": "^5.0.5",
+    "google-closure-compiler": "^20220905.0.0"
+  }
+}

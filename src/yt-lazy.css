@@ -1,0 +1,5 @@
+.youtube-video {
+    width: var(--yt-width);
+    height: var(--yt-height);
+    background: #000;
+}
